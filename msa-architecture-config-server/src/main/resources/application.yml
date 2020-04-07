@@ -8,4 +8,4 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/kyungje/MSA.git
+          uri: https://github.com/kyungje/MSA_config_server.git
