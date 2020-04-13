@@ -1,6 +1,6 @@
 spring:
   profile: local
-  
+   
 msaconfig:
   greeting: "Welcome to local server"
 

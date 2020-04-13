@@ -8,5 +8,33 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/kyungje/MSA_config_server
-       
+          uri: git@github.com:kyungje/MSA_config_server.git
+          ignore-local-ssh-settings: true
+          private-key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            MIIEpAIBAAKCAQEAyNkoxwz4Ib8NXWLKoxIcjWnWST/lyxa2lSd/dCN/3hni7+ue
+            1QFkmVfLsmwV6cEGp9QE+k0x4a1jnZA3de/bCzYxd48PRahWJ8iM0qSilD5BM2iw
+            S/guOGmvwZAvObU+x9MtvKTu5B2VIfbvk5yoXXy18Uicmyr37Iux3n3Hn1/ztR8W
+            Gwzyg5vzB17G2xqtOXMhWXu7qBe5PUaycH++tbmyY2K94LqE3j7FbpgkyKelCGfU
+            qk21IclrgmVRGWFVI2SBUx3h8uTxyb/95P0UC43t0Yu7Kr3sDPP6cv2pz8GRPIsV
+            0OXwNLE156I0I8LEFdRJG6C6wnIMyDFXzGjKkwIDAQABAoIBAQCDmwAERfRFMIoS
+            WgyLg++fne0ivDLXu39SBrqWIDjGENJKAWtnCW2gqQ25UOee7rNsvxmv5Ws9BD9U
+            3E3rAorWMuGBBQWt0Br8IIZd9DDv0Ecq53s1nF606lOXEuJO/vsvNqouhShf4x54
+            TfU4FRuhfnk9rCWp6yLfJb4cGvD19WB9KblfO87id1xsHEmRc+jpyYTv7R/gN+6i
+            WKRkTfsDOUbuVFMD09H5g8svap2PY6+InfXHWDVPsp0/2JiZXAa2KAPvfA60FMBk
+            FTU9scml6rxn6WaC5zCe8LUjhLXc3/Uiiijw+Rxxyi+WrTOWw8UcbH6tvIa2Mziy
+            FEOegm9pAoGBAPW2lufx+KsZsnEgJrnnEs5smYHEnNQ23sC0kmkEKoQdDok3q5rZ
+            qj0EH2sTWYB/dfAVEfEwvWzaCDaXgIWndc+BocYGGOBKeXHz/pmT4C22vDiE34QQ
+            S0Z6yCOnjTfZD/2ntuIBlgOhVbigGZdXsQf1t5w42G8wNczSIKKMjDplAoGBANFB
+            u8LTbMTmPEgxskLSaV9lKTo6sUC/cW6aiHpldQyFAZaQi3k6eDsJ/ORWZ71djotF
+            y+XdEjsVE87cnHTfuyaePr1tFHgdqO29e6jX9yBWYPbml0zXus/ujY7Ej4maYGsF
+            5x73zsAOeWbAjRaBTiqNlt8OOMo4/N50c/R9PuWXAoGBANfdmaYcRsLKyKHqBRu9
+            jiAb+KCxArbNndTezuHD7zYx8NtMNU7Ne2ovfQqs7SyezhYl7KVglIpU4nJTl23U
+            OQQcdutp3+DsjNU37q0t5P1EVQeydEuppPg+ViY8xSwTXqER/vF/QzPdQVn6DYGQ
+            YM8FaFGu/zZvvFQ9Jr6ni2qhAoGAFDsGrA9EtMSNj20+jrdI+LAPDFIgUOIxVUAb
+            cbndVxiEzsmqsk200gBlMq4n2WbyIQTecZqt6IhhId6yQZpfvZwO9MFW+UXkzxdC
+            nVBD1ByFw1kHx6YTqYamqObX+bWzHKW1cokCtA6yLfzvpv1ZUUPfEjGNy/82c0tO
+            6pQxQIECgYAghkKOw9igeSb47HjYRoS/63+DhHzFx9Lp6OjPLm5Qaj8k2cF9n9WV
+            e5TIQMsZRVOOe9awc21pFmgWk+7JIMGAn/cWHd1BBrlb/2cXQ6naLhScElQcOYdO
+            8ahS1KC4KoRDikuG0pSS0WHGilaTsTtfLV+hN9yjpreo5RILg5d/EA==
+            -----END RSA PRIVATE KEY-----
