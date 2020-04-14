@@ -1,5 +1,4 @@
-spring:
-  profile: dev
-  
-msaconfig:
-  greeting: "Welcome to dev server"
+eureka: 
+  client:
+    service-url:
+      defaultZone: http://52.79.120.13:10002/eureka/  
