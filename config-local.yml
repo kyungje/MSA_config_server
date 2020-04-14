@@ -1,5 +1,5 @@
 spring:
   profile: local
    
-msaconfig:
-  greeting: "Welcome to local server"
+eureka-server:
+  port: 10002
