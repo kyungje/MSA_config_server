@@ -1,5 +1,6 @@
 spring:
   profile: local
+  
     server:
        port: 10002
     custom:
