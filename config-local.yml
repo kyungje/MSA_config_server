@@ -1,5 +1,3 @@
-spring:
-  profile: local
 eureka: 
   client:
     service-url:
