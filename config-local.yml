@@ -16,7 +16,7 @@ zuul:
   port: 10003
   routes:
     simpleAccount: #routing Id
-      path: /simpleAcount/** #zuul context root
+      path: /simpleAccount/** #zuul context root
       serviceId: msa-architecture-simple-account #spring application name
       
     simpleMember:
