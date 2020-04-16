@@ -17,8 +17,8 @@ zuul:
   routes:
     simpleAcount: #routing Id
       path: /simpleAcount/** #zuul context root
-      serviceId: msa-service-simple-account #spring application name
+      serviceId: msa-architecture-simple-account #spring application name
       
     simpleMember:
       path: /simpleMember/** #zuul context root
-      serviceId: msa-service-simple-member #spring application name
+      serviceId: msa-architecture-simple-member #spring application name
