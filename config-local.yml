@@ -16,7 +16,7 @@ eureka:
 zuul:
   port: 10003
   routes:
-    simpleAccount: #routing Id
+    simpleAccount: #routing Id 
       path: /simpleAccount/** #zuul context root
       serviceId: msa-architecture-simple-account #spring application name
       
