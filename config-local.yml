@@ -17,6 +17,13 @@ zuul:
     simpleMember:
       path: /simpleMember/** #zuul context root
       serviceId: msa-architecture-simple-member #spring application name
+#turbine
+turbine:
+  port: 10004
+  app-config: msa-architecture-simple-account, msa-architecture-simple-member
+#hystrixDashboard
+hystrixDashboard:
+  port: 10005
 #msa
 msa-server:
   simple-account:
