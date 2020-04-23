@@ -1,3 +1,6 @@
+#logging
+log:
+  path-value: ./logs
 #eureka
 eureka: 
   client:
