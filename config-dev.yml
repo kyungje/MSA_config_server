@@ -1,9 +1,3 @@
-#msa
-msa-server:
-  simple-account:
-    port: 10006
-  simple-member:
-    port: 10007
 #eureka
 eureka: 
   client:
@@ -15,10 +9,39 @@ eureka:
 zuul:
   port: 10003
   routes:
-    simpleAcount: #routing Id
-      path: /simpleAcount/** #zuul context root
+    simpleAccount: #routing Id 
+      path: /simpleAccount/** #zuul context root
       serviceId: msa-architecture-simple-account #spring application name
       
     simpleMember:
       path: /simpleMember/** #zuul context root
       serviceId: msa-architecture-simple-member #spring application name
+#turbine
+turbine:
+  port: 10004
+  app-config: msa-architecture-simple-account, msa-architecture-simple-member
+#hystrixDashboard
+hystrixDashboard:
+  port: 10005
+#msa
+msa-server:
+  simple-account:
+    port: 10006
+    datasource:
+      #driver-class-name: org.mariadb.jdbc.Driver
+      driver-class-name: net.sf.log4jdbc.DriverSpy
+      #jdbc-url: jdbc:mysql://database-1.czllsedblstx.ap-northeast-2.rds.amazonaws.com:3306/basic_msa_db 
+      jdbc-url: jdbc:log4jdbc:mysql://database-1.czllsedblstx.ap-northeast-2.rds.amazonaws.com:3306/basic_msa_db 
+      username: basic_msa_user
+      password: dus228877
+      maximum-pool-size: 10
+  simple-member:
+    port: 10007
+    datasource:
+      #driver-class-name: org.mariadb.jdbc.Driver
+      driver-class-name: net.sf.log4jdbc.DriverSpy
+      #jdbc-url: jdbc:mysql://database-1.czllsedblstx.ap-northeast-2.rds.amazonaws.com:3306/basic_msa_db 
+      jdbc-url: jdbc:log4jdbc:mysql://database-1.czllsedblstx.ap-northeast-2.rds.amazonaws.com:3306/basic_msa_db 
+      username: basic_msa_user
+      password: dus228877
+      maximum-pool-size: 10
