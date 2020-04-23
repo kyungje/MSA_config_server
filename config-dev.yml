@@ -1,6 +1,6 @@
 #logging
 log:
-  path-value: /var/app
+  path-value: ./logsss
 #eureka
 eureka: 
   client:
