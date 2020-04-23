@@ -1,6 +1,3 @@
-#logging
-log:
-  path-value: ./logsss
 #eureka
 eureka: 
   client:
