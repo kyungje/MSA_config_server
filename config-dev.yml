@@ -1,3 +1,6 @@
+#logging
+log:
+  path-value: /var/app
 #eureka
 eureka: 
   client:
